@@ -1,0 +1,12 @@
+body {
+  background: #121212;
+  background-color: #121212!important;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
