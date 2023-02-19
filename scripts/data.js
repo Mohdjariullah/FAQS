@@ -6,7 +6,17 @@ const data = [{
   answer: `Two architecture-specific (arm64-v8a and armeabi-v7a) and a Universal apk are provided with every release. Depending upon your device architecture (arm64 or armeabi) you can download the APK which supports your device. Most modern devices support arm64-v8a whereas older devices support armeabi-v7a. Your device will most probably support arm64-v8a. If your device architecture is 'x86' or 'x86_64', or if you are having a problem installing/running platform-specific releases or you are not sure about your device architecture and don't want to take the risk of installation failing because of the wrong version, then you can install the Universal version which supports all device architectures, but has a larger size.`
 }, {
   question: `How to install it on iOS`,
-  answer: `You can use altstore or scarlet to sideload the app on iOS. For more instructions please visit <a href="https://altstore.io/">altstore.io</a> or <a href="https://usescarlet.com/">scarletapp.com</a>`
+  answer: `You can use <a href="https://altstore.io/">altstore</a> or <a href="https://usescarlet.com/">scarlet</a> to sideload the app on iOS.</br>
+  Here're basic steps to do so via altstore:</br>
+  <li>Download and install AltServer on your computer from the <a href="https://altstore.io/">altstore website</a>.</li>
+  <li>Connect your iPhone to your computer with a lightning cable.</li>
+  <li>Launch AltServer from your computer and make sure your iPhone is selected.</li>
+  <li>Click on the AltStore icon in the system tray and select "Install AltStore" on your iPhone. You will need to enter your Apple ID and password when prompted.</li>
+  <li>After AltStore is installed on your iPhone, open it and go to the "My Apps" tab.</li>
+  <li>Click the "+" button in the top left corner of the screen and select the BlackHole IPA file you downloaded.</li>
+  <li>Wait for AltStore to install the app on your iPhone, this may take a few minutes.</li>
+  <li>Once the app is installed, it will appear on your iPhone's home screen like any other app. You can now launch it and start listenting to music.</li>
+  That's it!  For more instructions please visit <a href="https://altstore.io/">altstore.io</a> or <a href="https://usescarlet.com/">scarletapp.com</a>`
 }, {
   question: `Is BlackHole on Play Store?`,
   answer: `No, BlackHole isn't on PlayStore and is likely to remain so.`
